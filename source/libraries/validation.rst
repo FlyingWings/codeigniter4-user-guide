@@ -1,18 +1,16 @@
-Validation
+验证器
 ##################################################
 
-CodeIgniter provides a comprehensive data validation class that
-helps minimize the amount of code you'll write.
+CodeIgniter 提供了一个复杂的数据验证类以帮助你尽可能少写代码。
 
 .. contents::
     :local:
     :depth: 2
 
-Overview
+概览
 ************************************************
 
-Before explaining CodeIgniter's approach to data validation, let's
-describe the ideal scenario:
+在解释 CodeIgniter 的数据验证之路前，让我们描述以下理想场景:
 
 #. A form is displayed.
 #. You fill it in and submit it.
@@ -35,13 +33,11 @@ On the receiving end, the script must:
    encoded? Etc.)
 #. Prep the data for insertion in the database.
 
-Although there is nothing terribly complex about the above process, it
-usually requires a significant amount of code, and to display error
-messages, various control structures are usually placed within the form
-HTML. Form validation, while simple to create, is generally very messy
-and tedious to implement.
+尽管上述流程中没有什么特别复杂的，这一过程通常需要非常复杂的代码组合。
+并且为了展示错误信息，在 HTML 表单中会存在多个控制结构。
+因此表单验证，尽管听起来不难，但是实际上非常麻烦并且实现起来单调乏味。
 
-Form Validation Tutorial
+表单验证教程
 ************************************************
 
 What follows is a "hands on" tutorial for implementing CodeIgniter's Form
